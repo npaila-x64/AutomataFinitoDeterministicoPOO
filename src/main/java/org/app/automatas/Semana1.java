@@ -1,4 +1,4 @@
-package org.app.diagramas;
+package org.app.automatas;
 
 import org.app.modelos.Alfabeto;
 import org.app.modelos.Automata;

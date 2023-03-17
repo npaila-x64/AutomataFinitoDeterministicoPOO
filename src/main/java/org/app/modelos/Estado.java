@@ -1,30 +1,25 @@
-package org.example;
+package org.app.modelos;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Estado {
-    enum ENUM {
-        SIMBOLO, ESTADO
-    }
+    enum ENUM {SIMBOLO, ESTADO}
 
     private Automata automata;
     private final String nombre;
-    private final Set<Map<ENUM, Object>> uniones = new HashSet<>();
+    private final Set<Map<ENUM, Object>> uniones = new LinkedHashSet<>();
 
     public Estado(String nombre) {
         this.nombre = nombre;
     }
 
-    public void transicionar(String c) {
+    public void transicionar(String s) {
         for (Map union : uniones) {
             Simbolo simbolo = (Simbolo) union.get(ENUM.SIMBOLO);
             Estado estado = (Estado) union.get(ENUM.ESTADO);
-            if (simbolo.toString().equals(c)) {
+            if (simbolo.toString().equals(s)) {
+                System.out.printf("%s -> %s vía símbolo '%s'%n", nombre, estado, simbolo);
                 automata.asignarEstado(estado);
-                break;
             }
         }
     }
@@ -38,6 +33,14 @@ public class Estado {
 
     public void asignarAutomata(Automata automata) {
         this.automata = automata;
+    }
+
+    public List<Estado> obtenerEstadosUnidos() {
+        List<Estado> estados = new LinkedList<>();
+        for (Map<ENUM, Object> union : uniones) {
+            estados.add((Estado) union.get(ENUM.ESTADO));
+        }
+        return estados;
     }
 
     @Override

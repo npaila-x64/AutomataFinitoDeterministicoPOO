@@ -1,4 +1,4 @@
-package org.example;
+package org.app.modelos;
 
 public class Simbolo {
 

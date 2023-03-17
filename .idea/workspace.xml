@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f04d45b6-9537-4bed-ae3c-2beba839972b" name="Changes" comment="" />
+    <list default="true" id="f04d45b6-9537-4bed-ae3c-2beba839972b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/automatas/ContieneCadenaABABA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/automatas/ContieneCadenaABABA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/automatas/NumerosImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/automatas/NumerosImpares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/automatas/Semana1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/automatas/Semana1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/modelos/Alfabeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/modelos/Alfabeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/modelos/Automata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/modelos/Automata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/modelos/Estado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/modelos/Estado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/modelos/Simbolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/modelos/Simbolo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N6HRoPuWSNQKhU7xRXj4TldIno" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +42,58 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/nicol/IdeaProjects/Automatas/src/diagramas"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.app.modelos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\IdeaProjects\Automatas\src\diagramas" />
+      <recent name="C:\Users\nicol\IdeaProjects\Automatas\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\IdeaProjects\Automatas\src\diagramas" />
+      <recent name="C:\Users\nicol\IdeaProjects\Automatas\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ContieneCadenaABABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.app.automatas.ContieneCadenaABABA" />
+      <module name="Automatas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.app.automatas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Semana1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.app.automatas.Semana1" />
+      <module name="Automatas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.app.modelos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ContieneCadenaABABA" />
+        <item itemvalue="Application.Semana1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
